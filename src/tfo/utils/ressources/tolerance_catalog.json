@@ -1,0 +1,853 @@
+{
+    "TR_top_oil":
+    {
+        "longname": "Top oil temperature rise",
+        "tol_defaut_longname": "IEC 60076-2:2011",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-2:2011",
+                "reference": "IEC 60076-2:2011 §6, §7",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 60,
+                    "lower_included": true
+                }
+            },
+            {
+                "shortname": "DPN",
+                "longname": "DPN reduced TR",
+                "reference": "",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 45,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "TR_average_winding":
+    {
+        "longname": "Average winding temperature rise",
+        "tol_defaut_longname": "IEC 60076-2:2011 OD..",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-2:2011 ON.. and OF..",
+                "reference": "IEC 60076-2:2011 §6, §7",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 65,
+                    "lower_included": true
+                }
+            },
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-2:2011 OD..",
+                "reference": "IEC 60076-2:2011 §6, §7",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 70,
+                    "lower_included": true
+                }
+            },
+            {
+                "shortname": "DPN",
+                "longname": "DPN reduced TR",
+                "reference": "",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 55,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "TR_hot_spot":
+    {
+        "longname": "Hot-spot temperature rise",
+        "tol_defaut_longname": "IEC 60076-2:2011",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-2:2011",
+                "reference": "IEC 60076-2:2011 §6, §7",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 78,
+                    "lower_included": true
+                }
+            },
+            {
+                "shortname": "DPN",
+                "longname": "DPN reduced TR",
+                "reference": "",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 65,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "voltage_ratio_max_dev":
+    {
+        "longname": "Voltage ratio maximum deviation",
+        "tol_defaut_longname": "IEC 60076-1:2011",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011",
+                "reference": "IEC 60076-1:2011 §10, §11.3",
+                "nota": "",
+                "definition_option": "B",
+                "value":
+                {
+                    "symetric": true,
+                    "base": 0,
+                    "plus": 0.5,
+                    "plus_included": true
+                }
+            }
+        ]
+    },
+    "no_load_loss_P0":
+    {
+        "longname": "No-load losses",
+        "tol_defaut_longname": "IEC 60076-1:2011",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011",
+                "reference": "IEC 60076-1:2011 §10, §11.5",
+                "nota": "+15 % of each component loss, provided that the tolerance for total losses (+10%) is not exceeded",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": false,
+                    "base": null,
+                    "plus": 15,
+                    "plus_included": true,
+                    "minus": "",
+                    "minus_included": true
+                }
+            }
+        ]
+    },
+    "no_load_loss_I0":
+    {
+        "longname": "No-load current",
+        "tol_defaut_longname": "IEC 60076-1:2011",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011",
+                "reference": "IEC 60076-1:2011 §10, §11.5",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": false,
+                    "base": null,
+                    "plus": 30,
+                    "plus_included": true,
+                    "minus": "",
+                    "minus_included": true
+                }
+            }
+        ]
+    },
+    "no_load_loss_d":
+    {
+        "longname": "d: Relative difference between U' and U",
+        "tol_defaut_longname": "IEC 60076-1:2011",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011",
+                "reference": "IEC 60076-1:2011 §11.5",
+                "nota": "Can be increased for test voltages without guarantee",
+                "definition_option": "B",
+                "value":
+                {
+                    "symetric": true,
+                    "base": 0,
+                    "plus": 3,
+                    "plus_included": true
+                }
+            }
+        ]
+    },
+    "load_loss_Pcc":
+    {
+        "longname": "Load losses",
+        "tol_defaut_longname": "IEC 60076-1:2011",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011",
+                "reference": "IEC 60076-1:2011 §10, §11.4",
+                "nota": "+15 % of each component loss, provided that the tolerance for total losses (+10%) is not exceeded",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": false,
+                    "base": null,
+                    "plus": 15,
+                    "plus_included": true,
+                    "minus": "",
+                    "minus_included": true
+                }
+            }
+        ]
+    },
+    "load_loss_Zsc":
+    {
+        "longname": "Load losses",
+        "tol_defaut_longname": "IEC 60076-1:2011 rated tap Zsc>=10%",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011 rated tap Zsc>=10%",
+                "reference": "IEC 60076-1:2011 §10, §11.4",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": null,
+                    "plus": 7.5,
+                    "plus_included": true
+                }
+            },
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011 rated tap Zsc<10%",
+                "reference": "IEC 60076-1:2011 §10, §11.4",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": null,
+                    "plus": 10,
+                    "plus_included": true
+                }
+            },
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011 not rated tap Zsc>=10%",
+                "reference": "IEC 60076-1:2011 §10, §11.4",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": null,
+                    "plus": 10,
+                    "plus_included": true
+                }
+            },
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011 not rated tap Zsc<10%",
+                "reference": "IEC 60076-1:2011 §10, §11.4",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": null,
+                    "plus": 15,
+                    "plus_included": true
+                }
+            }
+        ]
+    },
+    "total_loss_P":
+    {
+        "longname": "Total losses",
+        "tol_defaut_longname": "IEC 60076-1:2011",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-1:2011",
+                "reference": "IEC 60076-1:2011 §10, §11.4",
+                "nota": "+15 % of each component loss, provided that the tolerance for total losses (+10%) is not exceeded",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": false,
+                    "base": null,
+                    "plus": 10,
+                    "plus_included": true,
+                    "minus": "",
+                    "minus_included": true
+                }
+            }
+        ]
+    },
+    "diel_LI_T1":
+    {
+        "longname": "Front time (T1)",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.2.1",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": 1.2,
+                    "plus": 30,
+                    "plus_included": true
+                }
+            },
+            {
+                "shortname": "IEC Agreement",
+                "longname": "IEC 60076-3:2013 Under agreement",
+                "reference": "IEC 60076-3:2013 §13.2.1",
+                "nota": "If the standard impulse shape cannot reasonably be obtained, T1 can be increased to 2.5 µs (IEC 60076-3 §13.2.1), then \u03b2 can be increased to 10% (IEC 60060-1 §D.3).\nDecreasing T2 leads to an increase in test voltage: 1% per 1µs below 40µs, the minimum permissible is 20µs (IEC 60076-3 §13.2.1).",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 0,
+                    "greater_included": true,
+                    "lower": 2.5,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_LIN_T1":
+    {
+        "longname": "Front time for neutral (T1)",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.2.1",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 0,
+                    "greater_included": true,
+                    "lower": 13,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_LI_T2":
+    {
+        "longname": "Time to half-value (T2)",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.2.1",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": 50,
+                    "plus": 20,
+                    "plus_included": true
+                }
+            }
+        ]
+    },
+    "diel_LI_Tc":
+    {
+        "longname": "Time to chopping (Tc)",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.3.1",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 3,
+                    "greater_included": true,
+                    "lower": 6,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_LI_beta":
+    {
+        "longname": "Relative overshoot magnitude (\u03b2)",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.2.1",
+                "nota": "If the standard impulse shape cannot reasonably be obtained, T1 can be increased to 2.5 µs (IEC 60076-3 §13.2.1), then \u03b2 can be increased to 10% (IEC 60060-1 §D.3).\nDecreasing T2 leads to an increase in test voltage: 1% per 1µs below 40µs, the minimum permissible is 20µs (IEC 60076-3 §13.2.1).",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 0,
+                    "greater_included": true,
+                    "lower": 5,
+                    "lower_included": true
+                }
+            },
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60060-1:2010",
+                "reference": "IEC 60060-1 §D.3",
+                "nota": "If the standard impulse shape cannot reasonably be obtained, T1 can be increased to 2.5 µs (IEC 60076-3 §13.2.1), then \u03b2 can be increased to 10% (IEC 60060-1 §D.3).\nDecreasing T2 leads to an increase in test voltage: 1% per 1µs below 40µs, the minimum permissible is 20µs (IEC 60076-3 §13.2.1).",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 0,
+                    "greater_included": true,
+                    "lower": 10,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_LI_FW_rated":
+    {
+        "longname": "Full Wave Lightning Impulse",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.2.1",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": null,
+                    "plus": 3,
+                    "plus_included": true
+                }
+            }
+        ]
+    },
+    "diel_LI_CW_rated":
+    {
+        "longname": "Chopped Wave Lightning Impulse",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.3.1",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": null,
+                    "plus": 3,
+                    "plus_included": true
+                }
+            }
+        ]
+    },
+    "diel_LI_FW_reduced":
+    {
+        "longname": "Reduced Full Wave Lightning Impulse",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.2.2.1",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": false,
+                    "base": null,
+                    "plus": -30,
+                    "plus_included": true,
+                    "minus": 50,
+                    "minus_included": true
+                }
+            }
+        ]
+    },
+    "diel_LI_CW_reduced":
+    {
+        "longname": "Reduced Chopped Wave Lightning Impulse",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §13.3.2.1",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": false,
+                    "base": null,
+                    "plus": -30,
+                    "plus_included": true,
+                    "minus": 50,
+                    "minus_included": true
+                }
+            }
+        ]
+    },
+    "diel_SI_Tp":
+    {
+        "longname": "Time to peak (Tp)",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §14.3",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 100,
+                    "greater_included": true,
+                    "lower": "",
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_SI_Td":
+    {
+        "longname": "Time above 90 % (Td)",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §14.3",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 200,
+                    "greater_included": true,
+                    "lower": "",
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_SI_Tz":
+    {
+        "longname": "Time to zero (Tz)",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": true,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §14.3",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 1000,
+                    "greater_included": true,
+                    "lower": "",
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_SI_FW_rated":
+    {
+        "longname": "Full Wave Switching Impulse",
+        "tol_defaut_longname": "IEC 60060-1:2010",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60060-1:2010",
+                "reference": "IEC 60060-1:2010 §8.2.2",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": true,
+                    "base": null,
+                    "plus": 3,
+                    "plus_included": true
+                }
+            }
+        ]
+    },
+    "diel_SI_FW_reduced":
+    {
+        "longname": "Reduced Full Wave Switching Impulse",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §14.4",
+                "nota": "",
+                "definition_option": "A",
+                "value":
+                {
+                    "symetric": false,
+                    "base": null,
+                    "plus": -30,
+                    "plus_included": true,
+                    "minus": 50,
+                    "minus_included": true
+                }
+            }
+        ]
+    },
+    "diel_IVPD_df":
+    {
+        "longname": "Bandwidth",
+        "tol_defaut_longname": "IEC 60270:2015",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60270:2015",
+                "reference": "IEC 60270:2015 §4.3.4",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 100,
+                    "greater_included": true,
+                    "lower": 900,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_IVPD_f1":
+    {
+        "longname": "Lower limit frequency (f1)",
+        "tol_defaut_longname": "IEC 60270:2015",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60270:2015",
+                "reference": "IEC 60270:2015 §4.3.4",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": 30,
+                    "greater_included": true,
+                    "lower": 100,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_IVPD_f2":
+    {
+        "longname": "Upper limit frequency (f2)",
+        "tol_defaut_longname": "IEC 60270:2015",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60270:2015",
+                "reference": "IEC 60270:2015 §4.3.4",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 1000,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_IVPD_background_PD":
+    {
+        "longname": "Background PD",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §11.3.5",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 50,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_IVPD_max_PD":
+    {
+        "longname": "Maximum PD",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §11.3.5",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 250,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_IVPD_max_PD_rise":
+    {
+        "longname": "Maximum PD rise during last hour",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §11.3.5",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 50,
+                    "lower_included": true
+                }
+            }
+        ]
+    },
+    "diel_IVPD_intermediate_PD":
+    {
+        "longname": "Intermediate level PD after one hour period",
+        "tol_defaut_longname": "IEC 60076-3:2013",
+        "base_included": false,
+        "tol_catalog":
+        [
+            {
+                "shortname": "IEC",
+                "longname": "IEC 60076-3:2013",
+                "reference": "IEC 60076-3:2013 §11.3.5",
+                "nota": "",
+                "definition_option": "C",
+                "value":
+                {
+                    "greater": "",
+                    "greater_included": true,
+                    "lower": 100,
+                    "lower_included": true
+                }
+            }
+        ]
+    }
+}

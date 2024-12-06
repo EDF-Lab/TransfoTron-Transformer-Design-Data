@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>324</width>
+    <height>723</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="1" column="0">
+      <widget class="QLabel" name="ui_lbl_catalog">
+       <property name="text">
+        <string>Catalog</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Reference</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="ui_lbl_title">
+       <property name="text">
+        <string>title</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Definition option</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="ui_cb_catalog"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="ui_cb_defOption"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="ui_le_reference"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="ui_lbl_nota">
+       <property name="text">
+        <string>Nota</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPlainTextEdit" name="ui_txt_nota"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="ui_gb_A">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="2" column="0" rowspan="2">
+       <widget class="QLineEdit" name="ui_le_A_base"/>
+      </item>
+      <item row="2" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="ui_lbl_A_plus">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="ui_le_A_plus"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="ui_lbl_A_plus_pc">
+          <property name="text">
+           <string>%</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="ui_chk_A_plus_included">
+          <property name="text">
+           <string>Included</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="ui_lbl_A_minus">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="ui_le_A_minus"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="ui_lbl_A_minus_pc">
+          <property name="text">
+           <string>%</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="ui_chk_A_minus_included">
+          <property name="text">
+           <string>Included</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <widget class="QCheckBox" name="ui_chk_A_symetric">
+        <property name="text">
+         <string>Symetric interval</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="ui_gb_B">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="2" column="0" rowspan="2">
+       <widget class="QLineEdit" name="ui_le_B_base"/>
+      </item>
+      <item row="2" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="ui_lbl_B_plus">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="ui_le_B_plus"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="ui_chk_B_plus_included">
+          <property name="text">
+           <string>Included</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="ui_lbl_B_minus">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="ui_le_B_minus"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="ui_chk_B_minus_included">
+          <property name="text">
+           <string>Included</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <widget class="QCheckBox" name="ui_chk_B_symetric">
+        <property name="text">
+         <string>Symetric interval</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="ui_gb_C">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_7">
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="ui_lbl_C_plus">
+          <property name="text">
+           <string>&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="ui_le_C_plus"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="ui_chk_C_plus_included">
+          <property name="text">
+           <string>Included</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLabel" name="ui_lbl_C_minus">
+          <property name="text">
+           <string>&lt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="ui_le_C_minus"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="ui_chk_C_minus_included">
+          <property name="text">
+           <string>Included</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="ui_gb_check">
+     <property name="title">
+      <string>Check and try me!</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="2" column="0">
+       <widget class="QLineEdit" name="ui_le_chk_base"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>Value to test</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="ui_lbl_chk_base">
+        <property name="text">
+         <string>Base</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2" colspan="2">
+       <widget class="QLabel" name="ui_lbl_chk_okko">
+        <property name="text">
+         <string>ok_ko</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLineEdit" name="ui_le_chk_max"/>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Max allowed</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="4">
+       <widget class="QLabel" name="ui_lbl_chk_synthese">
+        <property name="text">
+         <string>lbl_synthese</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Min allowed</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="ui_le_chk_min"/>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="ui_le_chk_value"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>Comments</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPlainTextEdit" name="ui_txt_comments"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>ui_cb_catalog</tabstop>
+  <tabstop>ui_le_reference</tabstop>
+  <tabstop>ui_txt_nota</tabstop>
+  <tabstop>ui_cb_defOption</tabstop>
+  <tabstop>ui_chk_A_symetric</tabstop>
+  <tabstop>ui_le_A_base</tabstop>
+  <tabstop>ui_le_A_plus</tabstop>
+  <tabstop>ui_chk_A_plus_included</tabstop>
+  <tabstop>ui_le_A_minus</tabstop>
+  <tabstop>ui_chk_A_minus_included</tabstop>
+  <tabstop>ui_chk_B_symetric</tabstop>
+  <tabstop>ui_le_B_base</tabstop>
+  <tabstop>ui_le_B_plus</tabstop>
+  <tabstop>ui_chk_B_plus_included</tabstop>
+  <tabstop>ui_le_B_minus</tabstop>
+  <tabstop>ui_chk_B_minus_included</tabstop>
+  <tabstop>ui_le_C_plus</tabstop>
+  <tabstop>ui_chk_C_plus_included</tabstop>
+  <tabstop>ui_le_C_minus</tabstop>
+  <tabstop>ui_chk_C_minus_included</tabstop>
+  <tabstop>ui_le_chk_base</tabstop>
+  <tabstop>ui_le_chk_min</tabstop>
+  <tabstop>ui_le_chk_max</tabstop>
+  <tabstop>ui_le_chk_value</tabstop>
+  <tabstop>ui_txt_comments</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

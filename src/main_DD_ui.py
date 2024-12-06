@@ -1,0 +1,197 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'main_DD.ui'
+##
+## Created by: Qt User Interface Compiler version 6.6.0
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
+    QCursor, QFont, QFontDatabase, QGradient,
+    QIcon, QImage, QKeySequence, QLinearGradient,
+    QPainter, QPalette, QPixmap, QRadialGradient,
+    QTransform)
+from PySide6.QtWidgets import (QApplication, QDockWidget, QHeaderView, QMainWindow,
+    QMenu, QMenuBar, QPlainTextEdit, QScrollArea,
+    QSizePolicy, QStatusBar, QToolBar, QTreeView,
+    QVBoxLayout, QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(1035, 607)
+        self.action_New = QAction(MainWindow)
+        self.action_New.setObjectName(u"action_New")
+        self.action_Open = QAction(MainWindow)
+        self.action_Open.setObjectName(u"action_Open")
+        self.action_Save = QAction(MainWindow)
+        self.action_Save.setObjectName(u"action_Save")
+        self.action_SaveAs = QAction(MainWindow)
+        self.action_SaveAs.setObjectName(u"action_SaveAs")
+        self.action_Configure = QAction(MainWindow)
+        self.action_Configure.setObjectName(u"action_Configure")
+        self.action_Connect = QAction(MainWindow)
+        self.action_Connect.setObjectName(u"action_Connect")
+        self.action_Management = QAction(MainWindow)
+        self.action_Management.setObjectName(u"action_Management")
+        self.action_GenPDF = QAction(MainWindow)
+        self.action_GenPDF.setObjectName(u"action_GenPDF")
+        self.action_Check = QAction(MainWindow)
+        self.action_Check.setObjectName(u"action_Check")
+        self.action_DesignReview = QAction(MainWindow)
+        self.action_DesignReview.setObjectName(u"action_DesignReview")
+        self.action_DesignReview.setCheckable(False)
+        self.action_FAT = QAction(MainWindow)
+        self.action_FAT.setObjectName(u"action_FAT")
+        self.action_FAT.setCheckable(False)
+        self.action_fatID = QAction(MainWindow)
+        self.action_fatID.setObjectName(u"action_fatID")
+        self.action_Operations = QAction(MainWindow)
+        self.action_Operations.setObjectName(u"action_Operations")
+        self.action_opeID = QAction(MainWindow)
+        self.action_opeID.setObjectName(u"action_opeID")
+        self.action_About = QAction(MainWindow)
+        self.action_About.setObjectName(u"action_About")
+        self.action_Licenses = QAction(MainWindow)
+        self.action_Licenses.setObjectName(u"action_Licenses")
+        self.widget = QWidget(MainWindow)
+        self.widget.setObjectName(u"widget")
+        self.verticalLayout_3 = QVBoxLayout(self.widget)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.scrollArea = QScrollArea(self.widget)
+        self.scrollArea.setObjectName(u"scrollArea")
+        self.scrollArea.setWidgetResizable(True)
+        self.ui_activeWidget = QWidget()
+        self.ui_activeWidget.setObjectName(u"ui_activeWidget")
+        self.ui_activeWidget.setGeometry(QRect(0, 0, 737, 280))
+        self.scrollArea.setWidget(self.ui_activeWidget)
+
+        self.verticalLayout_3.addWidget(self.scrollArea)
+
+        MainWindow.setCentralWidget(self.widget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 1035, 22))
+        self.menu_File = QMenu(self.menubar)
+        self.menu_File.setObjectName(u"menu_File")
+        self.menu_Design = QMenu(self.menubar)
+        self.menu_Design.setObjectName(u"menu_Design")
+        self.menu = QMenu(self.menubar)
+        self.menu.setObjectName(u"menu")
+        MainWindow.setMenuBar(self.menubar)
+        self.ui_statusbar = QStatusBar(MainWindow)
+        self.ui_statusbar.setObjectName(u"ui_statusbar")
+        MainWindow.setStatusBar(self.ui_statusbar)
+        self.ui_toolBar_general = QToolBar(MainWindow)
+        self.ui_toolBar_general.setObjectName(u"ui_toolBar_general")
+        MainWindow.addToolBar(Qt.TopToolBarArea, self.ui_toolBar_general)
+        self.ui_dockCase = QDockWidget(MainWindow)
+        self.ui_dockCase.setObjectName(u"ui_dockCase")
+        self.ui_dockCase.setFeatures(QDockWidget.DockWidgetFloatable|QDockWidget.DockWidgetMovable)
+        self.dockWidgetContents = QWidget()
+        self.dockWidgetContents.setObjectName(u"dockWidgetContents")
+        self.verticalLayout = QVBoxLayout(self.dockWidgetContents)
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.ui_treeCase = QTreeView(self.dockWidgetContents)
+        self.ui_treeCase.setObjectName(u"ui_treeCase")
+
+        self.verticalLayout.addWidget(self.ui_treeCase)
+
+        self.ui_dockCase.setWidget(self.dockWidgetContents)
+        MainWindow.addDockWidget(Qt.LeftDockWidgetArea, self.ui_dockCase)
+        self.ui_toolBar_design = QToolBar(MainWindow)
+        self.ui_toolBar_design.setObjectName(u"ui_toolBar_design")
+        MainWindow.addToolBar(Qt.TopToolBarArea, self.ui_toolBar_design)
+        self.ui_dockComments = QDockWidget(MainWindow)
+        self.ui_dockComments.setObjectName(u"ui_dockComments")
+        self.ui_dockComments.setMinimumSize(QSize(109, 135))
+        self.ui_dockComments.setFloating(False)
+        self.ui_dockComments.setFeatures(QDockWidget.DockWidgetFloatable|QDockWidget.DockWidgetMovable)
+        self.dockWidgetContents_3 = QWidget()
+        self.dockWidgetContents_3.setObjectName(u"dockWidgetContents_3")
+        self.verticalLayout_2 = QVBoxLayout(self.dockWidgetContents_3)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.ui_txt_comments = QPlainTextEdit(self.dockWidgetContents_3)
+        self.ui_txt_comments.setObjectName(u"ui_txt_comments")
+        sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.ui_txt_comments.sizePolicy().hasHeightForWidth())
+        self.ui_txt_comments.setSizePolicy(sizePolicy)
+
+        self.verticalLayout_2.addWidget(self.ui_txt_comments)
+
+        self.ui_dockComments.setWidget(self.dockWidgetContents_3)
+        MainWindow.addDockWidget(Qt.TopDockWidgetArea, self.ui_dockComments)
+
+        self.menubar.addAction(self.menu_File.menuAction())
+        self.menubar.addAction(self.menu_Design.menuAction())
+        self.menubar.addAction(self.menu.menuAction())
+        self.menu_File.addAction(self.action_New)
+        self.menu_File.addAction(self.action_Open)
+        self.menu_File.addAction(self.action_Save)
+        self.menu_File.addAction(self.action_SaveAs)
+        self.menu_Design.addAction(self.action_Check)
+        self.menu_Design.addAction(self.action_GenPDF)
+        self.menu.addAction(self.action_About)
+        self.menu.addAction(self.action_Licenses)
+        self.ui_toolBar_general.addAction(self.action_New)
+        self.ui_toolBar_general.addAction(self.action_Open)
+        self.ui_toolBar_general.addAction(self.action_Save)
+        self.ui_toolBar_general.addAction(self.action_SaveAs)
+        self.ui_toolBar_design.addAction(self.action_Check)
+        self.ui_toolBar_design.addAction(self.action_GenPDF)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        self.action_New.setText(QCoreApplication.translate("MainWindow", u"&New", None))
+#if QT_CONFIG(shortcut)
+        self.action_New.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+N", None))
+#endif // QT_CONFIG(shortcut)
+        self.action_Open.setText(QCoreApplication.translate("MainWindow", u"&Open", None))
+#if QT_CONFIG(shortcut)
+        self.action_Open.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+O", None))
+#endif // QT_CONFIG(shortcut)
+        self.action_Save.setText(QCoreApplication.translate("MainWindow", u"&Save", None))
+#if QT_CONFIG(shortcut)
+        self.action_Save.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+S", None))
+#endif // QT_CONFIG(shortcut)
+        self.action_SaveAs.setText(QCoreApplication.translate("MainWindow", u"&SaveAs", None))
+#if QT_CONFIG(tooltip)
+        self.action_SaveAs.setToolTip(QCoreApplication.translate("MainWindow", u"Save As", None))
+#endif // QT_CONFIG(tooltip)
+        self.action_Configure.setText(QCoreApplication.translate("MainWindow", u"Configuration", None))
+        self.action_Connect.setText(QCoreApplication.translate("MainWindow", u"Connect", None))
+        self.action_Management.setText(QCoreApplication.translate("MainWindow", u"Management", None))
+#if QT_CONFIG(tooltip)
+        self.action_Management.setToolTip(QCoreApplication.translate("MainWindow", u"Management", None))
+#endif // QT_CONFIG(tooltip)
+        self.action_GenPDF.setText(QCoreApplication.translate("MainWindow", u"Generate PDF file", None))
+        self.action_Check.setText(QCoreApplication.translate("MainWindow", u"Check design", None))
+        self.action_DesignReview.setText(QCoreApplication.translate("MainWindow", u"Design review", None))
+        self.action_FAT.setText(QCoreApplication.translate("MainWindow", u"Factory acceptance tests", None))
+        self.action_fatID.setText(QCoreApplication.translate("MainWindow", u"Configure FAT ID", None))
+        self.action_Operations.setText(QCoreApplication.translate("MainWindow", u"Operations", None))
+        self.action_opeID.setText(QCoreApplication.translate("MainWindow", u"Configure Operation ID", None))
+        self.action_About.setText(QCoreApplication.translate("MainWindow", u"About, Help", None))
+        self.action_Licenses.setText(QCoreApplication.translate("MainWindow", u"Licenses", None))
+        self.menu_File.setTitle(QCoreApplication.translate("MainWindow", u"&File", None))
+        self.menu_Design.setTitle(QCoreApplication.translate("MainWindow", u"&Design", None))
+        self.menu.setTitle(QCoreApplication.translate("MainWindow", u"?", None))
+        self.ui_toolBar_general.setWindowTitle(QCoreApplication.translate("MainWindow", u"toolBar", None))
+        self.ui_dockCase.setWindowTitle(QCoreApplication.translate("MainWindow", u"Case", None))
+        self.ui_toolBar_design.setWindowTitle(QCoreApplication.translate("MainWindow", u"toolBar", None))
+        self.ui_dockComments.setWindowTitle(QCoreApplication.translate("MainWindow", u"Comments", None))
+        pass
+    # retranslateUi
+

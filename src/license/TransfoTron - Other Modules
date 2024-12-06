@@ -1,0 +1,23 @@
+TransfoTron - Other Modules
+Copyright EDF 2019-2024
+
+EDF property. Do not distribute without prior consent.
+
+TransfoTron is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Le logiciel est fourni "en l'état", sans garantie d'aucune sorte, expresse ou
+tacite, et notamment, sans que cette énumération ait un caractère limitatif,
+quant à l'adaptation du logiciel à l'usage auquel il est destiné, sa valeur
+commerciale, son caractère sécurisé, innovant ou pertinent. EDF n'offre, non
+limitativement, aucune garantie, expresse ou tacite, concernant :
+  − la capacité du logiciel à remplir les objectifs que le licencié s'est fixé,
+  ou à s'exécuter dans les combinaisons d'utilisation choisies par le licensié ;
+  − l'absence d'erreurs ou l'ininterruption de l'exécution du Logiciel ;
+  − la compatibilité du logiciel, ou des sutructures de données générées par
+  l'utilisation du Logiciel, avec une édition ou version ultérieure du Logiciel,
+  s'il en existe une, ou avec tout autre programme existant ou futur de EDF ;
+  − la compatibilité du Logiciel avec l'équipement du Licencié et sa
+  configuration logicielle EDF ne pourra en aucun cas être tenue pour
+  responsable des préjudices directs ou indirects, de quelque nature que ce
+  soit, résultat de l'utilisation du Logiciel par le Licencié.
